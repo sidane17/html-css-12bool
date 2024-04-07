@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box ;
+    scrollbar-width: none;
 }
 [class*="col_"]{
-    background-color: rgb(53, 53, 253);
+    background-color: rgb(26, 76, 255);
     text-align: center;
     border: white 1px solid;
     display: flex;
@@ -20,11 +21,11 @@
     justify-content: center;
 }
 .green{ 
-    border:  rgb(53, 53, 253) 1px solid;
+    border:  rgb(26, 76, 255) 1px solid;
     color: white;
     
     height: 90%;
-    background-color: green;
+    background-color: rgb(37, 255, 30);
 }
 
 /* main */
@@ -32,6 +33,7 @@
     width: 100%;
     height: fit-content;
     margin-bottom:1rem ;
+    scrollbar-width: none;
 }
 .riga{
     display: flex;
